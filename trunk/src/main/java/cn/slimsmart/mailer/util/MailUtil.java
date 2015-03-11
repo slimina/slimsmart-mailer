@@ -78,4 +78,8 @@ public class MailUtil {
 			return subject;
 		}
 	}
+	 
+	 public static void main(String[] aa){
+		System.out.println( constructMailFrom("发件人名称","xxx@163.com"));
+	 }
 }
